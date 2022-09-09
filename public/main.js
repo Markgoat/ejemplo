@@ -1,1 +1,3 @@
-console.log("Hola")
+const saludo=mensaje=>{
+    console.log(mensaje)
+}
