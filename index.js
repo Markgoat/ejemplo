@@ -4,5 +4,8 @@ app.use(express.static(__dirname + '/public'))
 app.get('/hola',(req,res)=>{
     res.send("Ruta")
 })
+app.post('/register',(req,res)=>{
+    res.send("getting data")
+})
 
 app.listen(3000,()=>{console.log("listening on port 3000")})
